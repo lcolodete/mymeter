@@ -1,0 +1,1 @@
+java -cp bin:lib/jpos-1.4.6.jar:lib/logGate.jar:lib/commons-lang3-3.1.jar appi.redeban.rb.server.main.Processor &

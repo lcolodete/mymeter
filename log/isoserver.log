@@ -1,0 +1,152 @@
+05/Fev 22:32:15,414 INFO  (Processor.java:127) - listening on port 3031
+05/Fev 22:32:34,408 INFO  (Processor.java:59) - SessionStart
+05/Fev 22:32:34,412 INFO  (MyMeterChannel.java:71) - <INCOMING ISO MESSAGE LENGTH = [56]
+05/Fev 22:32:34,417 INFO  (ISOLogUtil.java:44) - [TRACE] START INCOMING
+05/Fev 22:32:34,418 INFO  (ISOLogUtil.java:45) - [TRACE] Header = 6000010000
+05/Fev 22:32:34,418 INFO  (ISOLogUtil.java:46) - [TRACE] MTI = 0800
+05/Fev 22:32:34,418 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 3 valor = 990000
+05/Fev 22:32:34,419 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 11 valor = 000123
+05/Fev 22:32:34,419 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 41 valor = NSOMA000        
+05/Fev 22:32:34,420 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 42 valor = 000000000000000
+05/Fev 22:32:34,420 INFO  (ISOLogUtil.java:62) - [TRACE] END INCOMING
+05/Fev 22:32:34,425 INFO  (ISOLogUtil.java:44) - [TRACE] START OUTGOING
+05/Fev 22:32:34,425 INFO  (ISOLogUtil.java:45) - [TRACE] Header = 6000000001
+05/Fev 22:32:34,425 INFO  (ISOLogUtil.java:46) - [TRACE] MTI = 0810
+05/Fev 22:32:34,426 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 3 valor = 990000
+05/Fev 22:32:34,426 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 11 valor = 000123
+05/Fev 22:32:34,426 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 41 valor = NSOMA000        
+05/Fev 22:32:34,427 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 42 valor = 000000000000000
+05/Fev 22:32:34,427 INFO  (ISOLogUtil.java:62) - [TRACE] END OUTGOING
+05/Fev 22:32:34,428 INFO  (MyMeterChannel.java:50) - <OUTGOING ISO MESSAGE LENGTH = [56]
+05/Fev 22:32:34,430 ERROR (Processor.java:110) - SessionError
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at org.mymeter.common.MyMeterChannel.getMessageLength(MyMeterChannel.java:67)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:502)
+	at org.mymeter.server.main.Processor$Session.run(Processor.java:67)
+	at java.lang.Thread.run(Thread.java:724)
+05/Fev 22:32:34,431 INFO  (Processor.java:112) - SessionEnd
+05/Fev 22:34:56,564 INFO  (Processor.java:127) - listening on port 3031
+05/Fev 22:35:21,306 INFO  (Processor.java:127) - listening on port 3031
+05/Fev 22:35:26,995 INFO  (Processor.java:59) - SessionStart
+05/Fev 22:35:27,000 INFO  (MyMeterChannel.java:71) - <INCOMING ISO MESSAGE LENGTH = [56]
+05/Fev 22:35:27,005 INFO  (ISOLogUtil.java:44) - [TRACE] START INCOMING
+05/Fev 22:35:27,005 INFO  (ISOLogUtil.java:45) - [TRACE] Header = 6000010000
+05/Fev 22:35:27,005 INFO  (ISOLogUtil.java:46) - [TRACE] MTI = 0800
+05/Fev 22:35:27,006 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 3 valor = 990000
+05/Fev 22:35:27,006 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 11 valor = 000123
+05/Fev 22:35:27,006 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 41 valor = NSOMA000        
+05/Fev 22:35:27,006 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 42 valor = 000000000000000
+05/Fev 22:35:27,007 INFO  (ISOLogUtil.java:62) - [TRACE] END INCOMING
+05/Fev 22:35:27,012 INFO  (ISOLogUtil.java:44) - [TRACE] START OUTGOING
+05/Fev 22:35:27,012 INFO  (ISOLogUtil.java:45) - [TRACE] Header = 6000000001
+05/Fev 22:35:27,012 INFO  (ISOLogUtil.java:46) - [TRACE] MTI = 0810
+05/Fev 22:35:27,013 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 3 valor = 990000
+05/Fev 22:35:27,013 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 11 valor = 000123
+05/Fev 22:35:27,013 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 41 valor = NSOMA000        
+05/Fev 22:35:27,014 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 42 valor = 000000000000000
+05/Fev 22:35:27,014 INFO  (ISOLogUtil.java:62) - [TRACE] END OUTGOING
+05/Fev 22:35:27,015 INFO  (MyMeterChannel.java:50) - <OUTGOING ISO MESSAGE LENGTH = [56]
+05/Fev 22:35:27,017 ERROR (Processor.java:110) - SessionError
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at org.mymeter.common.MyMeterChannel.getMessageLength(MyMeterChannel.java:67)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:502)
+	at org.mymeter.server.main.Processor$Session.run(Processor.java:67)
+	at java.lang.Thread.run(Thread.java:724)
+05/Fev 22:35:27,018 INFO  (Processor.java:112) - SessionEnd
+05/Fev 22:40:16,216 INFO  (Processor.java:59) - SessionStart
+05/Fev 22:40:16,222 INFO  (MyMeterChannel.java:71) - <INCOMING ISO MESSAGE LENGTH = [83]
+05/Fev 22:40:16,223 INFO  (ISOLogUtil.java:44) - [TRACE] START INCOMING
+05/Fev 22:40:16,223 INFO  (ISOLogUtil.java:45) - [TRACE] Header = 6000010000
+05/Fev 22:40:16,223 INFO  (ISOLogUtil.java:46) - [TRACE] MTI = 0400
+05/Fev 22:40:16,223 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 3 valor = 002000
+05/Fev 22:40:16,224 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 11 valor = 002209
+05/Fev 22:40:16,224 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 37 valor = 16162141053333869   
+05/Fev 22:40:16,224 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 41 valor = NSOMA004        
+05/Fev 22:40:16,224 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 42 valor = 000000000000000
+05/Fev 22:40:16,225 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 47 valor = AAA0000
+05/Fev 22:40:16,225 INFO  (ISOLogUtil.java:62) - [TRACE] END INCOMING
+05/Fev 22:40:16,226 INFO  (ISOLogUtil.java:44) - [TRACE] START OUTGOING
+05/Fev 22:40:16,226 INFO  (ISOLogUtil.java:45) - [TRACE] Header = 6000000001
+05/Fev 22:40:16,226 INFO  (ISOLogUtil.java:46) - [TRACE] MTI = 0410
+05/Fev 22:40:16,227 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 3 valor = 002000
+05/Fev 22:40:16,227 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 11 valor = 002209
+05/Fev 22:40:16,227 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 12 valor = 20170205224016
+05/Fev 22:40:16,227 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 37 valor = 16162141053333869
+05/Fev 22:40:16,228 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 39 valor = 00
+05/Fev 22:40:16,228 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 41 valor = NSOMA004        
+05/Fev 22:40:16,228 INFO  (ISOLogUtil.java:62) - [TRACE] END OUTGOING
+05/Fev 22:40:16,229 INFO  (MyMeterChannel.java:50) - <OUTGOING ISO MESSAGE LENGTH = [70]
+05/Fev 22:40:16,230 ERROR (Processor.java:110) - SessionError
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at org.mymeter.common.MyMeterChannel.getMessageLength(MyMeterChannel.java:67)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:502)
+	at org.mymeter.server.main.Processor$Session.run(Processor.java:67)
+	at java.lang.Thread.run(Thread.java:724)
+05/Fev 22:40:16,231 INFO  (Processor.java:112) - SessionEnd
+05/Fev 22:56:45,586 INFO  (Processor.java:127) - listening on port 3031
+05/Fev 22:56:55,895 INFO  (Processor.java:59) - SessionStart
+05/Fev 22:56:55,900 INFO  (MyMeterChannel.java:71) - <INCOMING ISO MESSAGE LENGTH = [83]
+05/Fev 22:56:55,905 INFO  (ISOLogUtil.java:44) - [TRACE] START INCOMING
+05/Fev 22:56:55,906 INFO  (ISOLogUtil.java:45) - [TRACE] Header = 6000010000
+05/Fev 22:56:55,906 INFO  (ISOLogUtil.java:46) - [TRACE] MTI = 0400
+05/Fev 22:56:55,906 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 3 valor = 002000
+05/Fev 22:56:55,907 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 11 valor = 002209
+05/Fev 22:56:55,907 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 37 valor = 16162141053333869   
+05/Fev 22:56:55,907 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 41 valor = NSOMA004        
+05/Fev 22:56:55,908 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 42 valor = 000000000000000
+05/Fev 22:56:55,908 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 47 valor = AAA0000
+05/Fev 22:56:55,908 INFO  (ISOLogUtil.java:62) - [TRACE] END INCOMING
+05/Fev 22:56:55,913 INFO  (ISOLogUtil.java:44) - [TRACE] START OUTGOING
+05/Fev 22:56:55,914 INFO  (ISOLogUtil.java:45) - [TRACE] Header = 6000000001
+05/Fev 22:56:55,914 INFO  (ISOLogUtil.java:46) - [TRACE] MTI = 0410
+05/Fev 22:56:55,914 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 3 valor = 002000
+05/Fev 22:56:55,915 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 11 valor = 002209
+05/Fev 22:56:55,915 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 12 valor = 20170205225655
+05/Fev 22:56:55,915 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 37 valor = 16162141053333869
+05/Fev 22:56:55,915 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 39 valor = 00
+05/Fev 22:56:55,916 INFO  (ISOLogUtil.java:57) - [TRACE] Campo 41 valor = NSOMA004        
+05/Fev 22:56:55,916 INFO  (ISOLogUtil.java:62) - [TRACE] END OUTGOING
+05/Fev 22:56:55,917 INFO  (MyMeterChannel.java:50) - <OUTGOING ISO MESSAGE LENGTH = [70]
+05/Fev 22:56:55,920 ERROR (Processor.java:110) - SessionError
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at org.mymeter.common.MyMeterChannel.getMessageLength(MyMeterChannel.java:67)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:504)
+	at org.mymeter.server.main.Processor$Session.run(Processor.java:67)
+	at java.lang.Thread.run(Thread.java:724)
+05/Fev 22:56:55,920 INFO  (Processor.java:112) - SessionEnd
+12/Fev 20:57:31,783 INFO  (Processor.java:127) - listening on port 3031
+12/Fev 21:01:23,652 INFO  (Processor.java:59) - SessionStart
+12/Fev 21:01:23,666 INFO  (MyMeterChannel.java:71) - <INCOMING ISO MESSAGE LENGTH = [83]
+12/Fev 21:01:23,671 DEBUG (ISOLogUtil.java:44) - > START INCOMING
+12/Fev 21:01:23,671 DEBUG (ISOLogUtil.java:45) - > Header = 6000010000
+12/Fev 21:01:23,672 DEBUG (ISOLogUtil.java:46) - > MTI = 0400
+12/Fev 21:01:23,672 DEBUG (ISOLogUtil.java:57) - > Campo 3 valor = 002000
+12/Fev 21:01:23,672 DEBUG (ISOLogUtil.java:57) - > Campo 11 valor = 002209
+12/Fev 21:01:23,673 DEBUG (ISOLogUtil.java:57) - > Campo 37 valor = 16162141053333869   
+12/Fev 21:01:23,673 DEBUG (ISOLogUtil.java:57) - > Campo 41 valor = NSOMA004        
+12/Fev 21:01:23,673 DEBUG (ISOLogUtil.java:57) - > Campo 42 valor = 000000000000000
+12/Fev 21:01:23,674 DEBUG (ISOLogUtil.java:57) - > Campo 47 valor = AAA0000
+12/Fev 21:01:23,674 DEBUG (ISOLogUtil.java:62) - > END INCOMING
+12/Fev 21:01:23,704 DEBUG (ISOLogUtil.java:44) - > START OUTGOING
+12/Fev 21:01:23,704 DEBUG (ISOLogUtil.java:45) - > Header = 6000000001
+12/Fev 21:01:23,704 DEBUG (ISOLogUtil.java:46) - > MTI = 0410
+12/Fev 21:01:23,705 DEBUG (ISOLogUtil.java:57) - > Campo 3 valor = 002000
+12/Fev 21:01:23,705 DEBUG (ISOLogUtil.java:57) - > Campo 11 valor = 002209
+12/Fev 21:01:23,705 DEBUG (ISOLogUtil.java:57) - > Campo 12 valor = 20170212210123
+12/Fev 21:01:23,705 DEBUG (ISOLogUtil.java:57) - > Campo 37 valor = 16162141053333869
+12/Fev 21:01:23,706 DEBUG (ISOLogUtil.java:57) - > Campo 39 valor = 00
+12/Fev 21:01:23,706 DEBUG (ISOLogUtil.java:57) - > Campo 41 valor = NSOMA004        
+12/Fev 21:01:23,706 DEBUG (ISOLogUtil.java:62) - > END OUTGOING
+12/Fev 21:01:23,707 INFO  (MyMeterChannel.java:50) - <OUTGOING ISO MESSAGE LENGTH = [70]
+12/Fev 21:01:23,710 ERROR (Processor.java:110) - SessionError
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at org.mymeter.common.MyMeterChannel.getMessageLength(MyMeterChannel.java:67)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:504)
+	at org.mymeter.server.main.Processor$Session.run(Processor.java:67)
+	at java.lang.Thread.run(Thread.java:724)
+12/Fev 21:01:23,711 INFO  (Processor.java:112) - SessionEnd
